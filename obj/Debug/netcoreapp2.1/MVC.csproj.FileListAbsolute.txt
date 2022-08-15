@@ -30,3 +30,4 @@ C:\MVC\obj\Debug\netcoreapp2.1\MVC.Views.pdb
 C:\MVC\obj\Debug\netcoreapp2.1\MVC.dll
 C:\MVC\obj\Debug\netcoreapp2.1\MVC.pdb
 C:\MVC\obj\Debug\netcoreapp2.1\MVC.csproj.CopyComplete
+C:\MVC\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Index.g.cshtml.cs
