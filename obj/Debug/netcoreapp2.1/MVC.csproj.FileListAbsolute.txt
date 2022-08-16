@@ -31,3 +31,7 @@ C:\MVC\obj\Debug\netcoreapp2.1\MVC.dll
 C:\MVC\obj\Debug\netcoreapp2.1\MVC.pdb
 C:\MVC\obj\Debug\netcoreapp2.1\MVC.csproj.CopyComplete
 C:\MVC\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Index.g.cshtml.cs
+C:\MVC\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Create.g.cshtml.cs
+C:\MVC\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Delete.g.cshtml.cs
+C:\MVC\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Details.g.cshtml.cs
+C:\MVC\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Edit.g.cshtml.cs
