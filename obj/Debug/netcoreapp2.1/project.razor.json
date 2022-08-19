@@ -1838,6 +1838,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\MVC\\Views\\Sellers\\Index.cshtml",
+      "TargetPath": "Views\\Sellers\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\MVC\\Views\\Departments\\Create.cshtml",
       "TargetPath": "Views\\Departments\\Create.cshtml",
       "FileKind": "mvc"
