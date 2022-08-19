@@ -13,6 +13,12 @@ namespace MVC.Data
         public SeedingService(SalesWebMvcContext context) => _context = context;
         public void Seed()
         {
+            if (_context.Department.Any() ||
+                _context.Seller.Any() ||
+                _context.SalesRecord.Any())
+            {
+                return; // DB has been seeded
+            }
 
             Department d1 = new Department(1, "Computers");
             Department d2 = new Department(2, "Electronics");
