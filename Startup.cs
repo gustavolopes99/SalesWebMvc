@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using MVC.Models;
 using MVC.Data;
+using MVC.Services;
 
 namespace MVC
 {
@@ -37,6 +38,7 @@ namespace MVC
                         builder.MigrationsAssembly("MVC")));
 
             services.AddScoped<SeedingService>();
+            services.AddScoped<SellerService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
