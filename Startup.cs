@@ -54,7 +54,7 @@ namespace MVC
             {
                 DefaultRequestCulture = new RequestCulture(enUS),
                 SupportedCultures = new List<CultureInfo> { enUS },
-                SupportedUICultures = new List<CultureInfo> { en-US }
+                SupportedUICultures = new List<CultureInfo> { enUS }
             };
 
             app.UseRequestLocalization(localizationOptions);
