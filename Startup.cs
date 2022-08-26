@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Localization;
+using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
@@ -54,7 +55,7 @@ namespace MVC
             {
                 DefaultRequestCulture = new RequestCulture(enUS),
                 SupportedCultures = new List<CultureInfo> { enUS },
-                SupportedUICultures = new List<CultureInfo> { en-US }
+                SupportedUICultures = new List<CultureInfo> { enUS }
             };
 
             app.UseRequestLocalization(localizationOptions);
